@@ -1,7 +1,7 @@
 from aiohttp import web
 from routes import web_server
 from pyrogram import Client, __version__
-from configs import API_ID, API_HASH, BOT_TOKEN, LOGGER, PORT
+from configs import *
 
 class FilterBot(Client):
 
